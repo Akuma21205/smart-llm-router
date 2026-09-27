@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "q001",
+    "query": "What is the difference between TCP and UDP networking protocols?",
+    "expected_category": "general",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q002",
+    "query": "What does HTTP status code 403 Forbidden mean?",
+    "expected_category": "general",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q003",
+    "query": "List the planets in our solar system in order from closest to farthest from the Sun.",
+    "expected_category": "general",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q004",
+    "query": "Who is widely considered the father of computer science and artificial intelligence?",
+    "expected_category": "general",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q005",
+    "query": "What is the primary function of DNS (Domain Name System) on the internet?",
+    "expected_category": "general",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q006",
+    "query": "What is the capital city of Australia?",
+    "expected_category": "general",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q007",
+    "query": "Explain the purpose of RAM (Random Access Memory) in simple terms for a beginner.",
+    "expected_category": "general",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q008",
+    "query": "What is the speed of light in a vacuum in meters per second?",
+    "expected_category": "general",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q009",
+    "query": "When was the Python programming language first publicly released by Guido van Rossum?",
+    "expected_category": "general",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q010",
+    "query": "What does the acronym API stand for, and what is its basic purpose in software?",
+    "expected_category": "general",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q011",
+    "query": "Summarize the core architectural differences between monolithic applications and microservices.",
+    "expected_category": "general",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q012",
+    "query": "Explain the CAP theorem in distributed computing and describe what trade-offs it imposes.",
+    "expected_category": "general",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q013",
+    "query": "How does public-key (asymmetric) cryptography work to establish secure communication?",
+    "expected_category": "general",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q014",
+    "query": "Explain how generational garbage collection works in modern runtimes like the JVM or V8.",
+    "expected_category": "general",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q015",
+    "query": "Compare relational SQL databases with NoSQL document stores in terms of schema flexibility and ACID guarantees.",
+    "expected_category": "general",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q016",
+    "query": "Explain the biological mechanism of photosynthesis in plants and why it is vital for Earth's atmosphere.",
+    "expected_category": "general",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q017",
+    "query": "What were the primary macroeconomic and systemic causes of the 2008 global financial crisis?",
+    "expected_category": "general",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q018",
+    "query": "Explain how the Transformer self-attention architecture fundamentally changed natural language processing.",
+    "expected_category": "general",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q019",
+    "query": "What is the technical distinction between concurrency and parallelism in operating systems?",
+    "expected_category": "general",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q020",
+    "query": "Explain how the Federal Reserve uses interest rate adjustments and open market operations to control inflation.",
+    "expected_category": "general",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q021",
+    "query": "Provide a comprehensive comparative analysis of zero-knowledge proofs (ZK-SNARKs vs ZK-STARKs), covering arithmetization, polynomial commitment schemes, and cryptographic assumptions.",
+    "expected_category": "general",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q022",
+    "query": "Explain quantum entanglement, Bell's inequalities, and the experimental verification that ruled out local hidden-variable theories in physics.",
+    "expected_category": "general",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q023",
+    "query": "Detail the complete Raft consensus protocol, including leader election, log replication consistency, safety invariants, and joint consensus configuration changes.",
+    "expected_category": "general",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q024",
+    "query": "Trace the socioeconomic evolution of the international monetary system from the 1944 Bretton Woods agreement through the 1971 Nixon Shock to contemporary fiat reserve dynamics.",
+    "expected_category": "general",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q025",
+    "query": "Explain the molecular and epigenetic mechanisms governing cellular senescence, telomere attrition, and the SASP phenotype in human aging.",
+    "expected_category": "general",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q026",
+    "query": "Detail the hardware memory hierarchy bottlenecks of self-attention computation and explain how FlashAttention achieves exact attention with sub-quadratic I/O complexity.",
+    "expected_category": "general",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q027",
+    "query": "Compare Paxos, Multi-Paxos, and Raft consensus algorithms in geographically distributed fault-tolerant distributed storage systems under network partitions.",
+    "expected_category": "general",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q028",
+    "query": "Explain the thermodynamic laws of black holes and the derivation of the Bekenstein-Hawking entropy formula in quantum field theory in curved spacetime.",
+    "expected_category": "general",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q029",
+    "query": "Detail the out-of-order execution pipeline of modern x86/ARM processors, including register renaming, reorder buffers, branch prediction, and vulnerability to speculative execution side-channel attacks.",
+    "expected_category": "general",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q030",
+    "query": "Analyze the theoretical relationship between complexity classes BQP, NP, and BPP, and explain why quantum computers cannot efficiently solve arbitrary NP-complete problems.",
+    "expected_category": "general",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q031",
+    "query": "Write a clean Python function to check whether a given positive integer is prime.",
+    "expected_category": "coding",
+    "expected_complexity": "low",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q032",
+    "query": "How do I remove duplicates from a list in Python while preserving the original element order?",
+    "expected_category": "coding",
+    "expected_complexity": "low",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q033",
+    "query": "Write a one-line JavaScript function to reverse a string.",
+    "expected_category": "coding",
+    "expected_complexity": "low",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q034",
+    "query": "How do I read and parse a JSON file into a Python dictionary using the standard json module?",
+    "expected_category": "coding",
+    "expected_complexity": "low",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q035",
+    "query": "Write an SQL query to select all users whose age is over 25, ordered alphabetically by last_name.",
+    "expected_category": "coding",
+    "expected_complexity": "low",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q036",
+    "query": "What is the Git command to create and immediately switch to a new branch named 'feature-login'?",
+    "expected_category": "coding",
+    "expected_complexity": "low",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q037",
+    "query": "Write a Python snippet using argparse to accept an integer argument --port with a default of 8000.",
+    "expected_category": "coding",
+    "expected_complexity": "low",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q038",
+    "query": "Write a TypeScript function that takes an array of numbers and returns their arithmetic mean.",
+    "expected_category": "coding",
+    "expected_complexity": "low",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q039",
+    "query": "Write a regular expression in Python to validate standard email addresses.",
+    "expected_category": "coding",
+    "expected_complexity": "low",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q040",
+    "query": "How do I perform a simple HTTP GET request in Python using urllib.request and read the response text?",
+    "expected_category": "coding",
+    "expected_complexity": "low",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q041",
+    "query": "Implement a thread-safe Singleton pattern in Python using a metaclass with double-checked locking.",
+    "expected_category": "coding",
+    "expected_complexity": "medium",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q042",
+    "query": "Write an SQL query using ROW_NUMBER() window function to find the top 3 highest-earning employees in each department.",
+    "expected_category": "coding",
+    "expected_complexity": "medium",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q043",
+    "query": "Implement an asynchronous token bucket rate limiter in Python using asyncio and time.monotonic.",
+    "expected_category": "coding",
+    "expected_complexity": "medium",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q044",
+    "query": "Debug this snippet: 'def append_val(x, l=[]): l.append(x); return l'. Explain why it exhibits buggy state retention and provide the idiomatic fix.",
+    "expected_category": "coding",
+    "expected_complexity": "medium",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q045",
+    "query": "Implement a Trie (prefix tree) in Python supporting insert, search, and startsWith methods in optimal time.",
+    "expected_category": "coding",
+    "expected_complexity": "medium",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q046",
+    "query": "Write a FastAPI endpoint that handles async file uploads, verifies the MIME type is image/png or image/jpeg, and streams it safely to disk.",
+    "expected_category": "coding",
+    "expected_complexity": "medium",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q047",
+    "query": "Write an algorithm in Python to search for an integer in a rotated sorted array in O(log n) time complexity.",
+    "expected_category": "coding",
+    "expected_complexity": "medium",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q048",
+    "query": "In TypeScript, implement a generic DeepPartial<T> type that recursively makes all nested properties and array elements optional.",
+    "expected_category": "coding",
+    "expected_complexity": "medium",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q049",
+    "query": "Write a reusable Python context manager class that logs execution latency and catches and records specific database operational errors.",
+    "expected_category": "coding",
+    "expected_complexity": "medium",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q050",
+    "query": "Implement an LRU Cache in Python from scratch using a doubly linked list and a hash map with O(1) get and put operations.",
+    "expected_category": "coding",
+    "expected_complexity": "medium",
+    "expected_route": "coding",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q051",
+    "query": "Implement a lock-free concurrent queue in C++ using atomic std::atomic pointers and compare-and-swap, properly mitigating the ABA problem with tagged pointers.",
+    "expected_category": "coding",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q052",
+    "query": "Write a production-grade distributed sliding-window rate limiter in Python using Redis Lua script to guarantee atomic evaluation across distributed clusters.",
+    "expected_category": "coding",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q053",
+    "query": "Implement a complete Red-Black Tree in Python with full node insertion, deletion, color flipping, and left/right rotations satisfying all 5 invariant properties.",
+    "expected_category": "coding",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q054",
+    "query": "Design and implement a zero-copy circular ring buffer in C/Python using POSIX shared memory (shm_open and mmap) for high-frequency trading IPC.",
+    "expected_category": "coding",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q055",
+    "query": "Write an abstract syntax tree (AST) compiler and stack-based bytecode virtual machine in Python that parses arithmetic expressions and executes bytecode instructions.",
+    "expected_category": "coding",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q056",
+    "query": "Implement a complete Raft state machine in Python with election timers, Heartbeat RPCs, log appending, and leader commit index advancement.",
+    "expected_category": "coding",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q057",
+    "query": "Write a custom memory allocator in C implementing custom_malloc and custom_free with explicit free list management, alignment, and boundary tag coalescing.",
+    "expected_category": "coding",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q058",
+    "query": "Implement a B+ Tree index engine in Python with node splitting, merging, pointer rebalancing, and page serialization to simulate database disk storage.",
+    "expected_category": "coding",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q059",
+    "query": "Write a cache-tiled, AVX-512 SIMD-vectorized matrix multiplication kernel in C++ that maximizes L1/L2 cache hit rates.",
+    "expected_category": "coding",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q060",
+    "query": "Implement a custom asynchronous event loop from scratch in Python using low-level OS select/epoll primitives and generator-based coroutine scheduling.",
+    "expected_category": "coding",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q061",
+    "query": "If an item costs $24 after a 20% discount, what was the original price before the discount was applied?",
+    "expected_category": "reasoning",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q062",
+    "query": "In a group of 30 students, 18 play soccer, 15 play basketball, and 8 play both. How many students play neither sport?",
+    "expected_category": "reasoning",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q063",
+    "query": "If all roses are flowers and some flowers fade quickly, does logic imply that some roses fade quickly? Explain why or why not.",
+    "expected_category": "reasoning",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q064",
+    "query": "A baseball bat and ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "expected_category": "reasoning",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q065",
+    "query": "The sum of three consecutive odd numbers is 81. Find the three numbers.",
+    "expected_category": "reasoning",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q066",
+    "query": "If 5 machines take 5 minutes to make 5 widgets, how many minutes would it take 100 machines to make 100 widgets?",
+    "expected_category": "reasoning",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q067",
+    "query": "You have a 7-minute hourglass and a 4-minute hourglass. How can you measure exactly 9 minutes using only these two timers?",
+    "expected_category": "reasoning",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q068",
+    "query": "If today is Wednesday, what day of the week will it be exactly 100 days from today?",
+    "expected_category": "reasoning",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q069",
+    "query": "A box contains 5 red balls, 4 blue balls, and 3 green balls. If one ball is drawn randomly, what is the probability that it is not red?",
+    "expected_category": "reasoning",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q070",
+    "query": "Identify the next number in this mathematical sequence: 2, 6, 12, 20, 30, 42, ... and explain the underlying formula.",
+    "expected_category": "reasoning",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q071",
+    "query": "Solve this logic puzzle: Three people (Alice, Bob, Carol) wear hats that are either red or blue. Exactly one person is a liar. Alice says: 'Bob has a blue hat.' Bob says: 'Carol has a red hat.' Carol says: 'Alice and I have different colored hats.' Deduce who is lying and the hat color of each person.",
+    "expected_category": "reasoning",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q072",
+    "query": "Prove by mathematical induction that the sum of the first n positive integers is n(n + 1) / 2 for all n >= 1.",
+    "expected_category": "reasoning",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q073",
+    "query": "A car travels from City A to City B at an average speed of 60 mph, and returns along the exact same route at 40 mph. Calculate the average speed for the round trip and explain why it is not 50 mph.",
+    "expected_category": "reasoning",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q074",
+    "query": "The Monty Hall problem: You choose Door 1 out of 3 doors. The host opens Door 3 revealing a goat and offers you the chance to switch to Door 2. Provide a rigorous mathematical proof showing why switching gives a 2/3 probability of winning.",
+    "expected_category": "reasoning",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q075",
+    "query": "In game theory, analyze the Iterated Prisoner's Dilemma and explain why the Tit-for-Tat strategy outperforms uncooperative and naive strategies over repeated rounds.",
+    "expected_category": "reasoning",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q076",
+    "query": "Five rational, greedy pirates (ranked 1 to 5) must divide 100 gold coins. The senior pirate proposes a split; if at least 50% agree, it passes, otherwise they walk the plank. Deduce Pirate 1's optimal coin distribution.",
+    "expected_category": "reasoning",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q077",
+    "query": "You have 12 coins, one of which is counterfeit (either heavier or lighter). Using a two-pan balance scale exactly 3 times, describe the algorithm to identify the counterfeit coin and whether it is heavier or lighter.",
+    "expected_category": "reasoning",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q078",
+    "query": "Prove that the square root of 2 is an irrational number using a formal proof by contradiction.",
+    "expected_category": "reasoning",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q079",
+    "query": "A medical test for a rare disease with 0.1% prevalence has a 99% true positive rate and a 2% false positive rate. If a random patient tests positive, compute their exact Bayesian posterior probability of actually having the disease.",
+    "expected_category": "reasoning",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q080",
+    "query": "Determine the minimum number of balance scale weighings required to find one heavier counterfeit coin among n coins, and prove the theoretical lower bound using decision trees.",
+    "expected_category": "reasoning",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q081",
+    "query": "Formally outline the proof of Godel's First Incompleteness Theorem, detailing Godel numbering, self-referential sentence construction via the diagonal lemma, and arithmetization of provability in Peano Arithmetic.",
+    "expected_category": "reasoning",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q082",
+    "query": "Provide a formal reduction proof demonstrating that the Halting Problem is undecidable using a Turing machine contradiction and diagonalization.",
+    "expected_category": "reasoning",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q083",
+    "query": "Derive the Nash Equilibrium for a continuous Cournot duopoly with asymmetric marginal costs and prove its existence, uniqueness, and Pareto inefficiency.",
+    "expected_category": "reasoning",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q084",
+    "query": "Solve the Basel problem: rigorously evaluate the sum of 1/n^2 from n=1 to infinity and prove that it equals pi^2 / 6 using Fourier series expansion of f(x) = x^2.",
+    "expected_category": "reasoning",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q085",
+    "query": "In algorithmic game theory, formulate the Price of Anarchy in atomic congestion games with affine latency functions, and prove the Christodoulou-Koutsoupias 5/2 upper bound.",
+    "expected_category": "reasoning",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q086",
+    "query": "Derive the classical Central Limit Theorem formally using characteristic functions, Fourier transforms, and Taylor series expansion of cumulant generating functions.",
+    "expected_category": "reasoning",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q087",
+    "query": "Analyze the Byzantine Agreement problem in an asynchronous distributed network without cryptographic signatures, and prove Fischer-Lynch-Paterson (FLP) impossibility of reaching consensus in the presence of even a single unannounced fail-stop fault.",
+    "expected_category": "reasoning",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q088",
+    "query": "Prove that the Circuit Value Problem is P-complete under logarithmic space reductions from arbitrary polynomial-time deterministic Turing machines.",
+    "expected_category": "reasoning",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q089",
+    "query": "Derive the Black-Scholes partial differential equation for European option pricing from geometric Brownian motion using Ito's Lemma and dynamic arbitrage-free delta hedging.",
+    "expected_category": "reasoning",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q090",
+    "query": "Rigorously evaluate the Gaussian integral of exp(-x^2) from -infinity to +infinity using multivariable double integration in polar coordinates, justifying the Fubini theorem application.",
+    "expected_category": "reasoning",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q091",
+    "query": "Write a witty 4-line rhyming limerick about a junior developer who forgot to git commit on Friday afternoon.",
+    "expected_category": "creative",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q092",
+    "query": "Generate 5 catchy, memorable slogans for an eco-friendly solar-powered coffee maker.",
+    "expected_category": "creative",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q093",
+    "query": "Write a serene 3-line haiku capturing the feeling of early morning mist over quiet mountain peaks.",
+    "expected_category": "creative",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q094",
+    "query": "Craft an atmospheric opening hook sentence for a gritty cyberpunk detective novel.",
+    "expected_category": "creative",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q095",
+    "query": "Create 5 whimsical names for a hidden apothecary shop that sells enchanted herbal teas in a fantasy city.",
+    "expected_category": "creative",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q096",
+    "query": "Write a humorous apology letter from a family dog explaining why eating the kid's algebra homework was a noble act.",
+    "expected_category": "creative",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q097",
+    "query": "Write a two-sentence horror micro-story set inside a seemingly ordinary elevator.",
+    "expected_category": "creative",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q098",
+    "query": "Write a playful, pun-filled birthday greeting card message for a master pastry chef.",
+    "expected_category": "creative",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q099",
+    "query": "Create a vivid metaphor comparing the process of debugging complex software to hunting ghosts in an old Victorian house.",
+    "expected_category": "creative",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q100",
+    "query": "Write a sensory descriptive paragraph depicting the sudden arrival of summer rain on baking desert red rock.",
+    "expected_category": "creative",
+    "expected_complexity": "low",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q101",
+    "query": "Write a dramatic theatrical monologue from the perspective of an obsolete supercomputer moments before its final decommissioning.",
+    "expected_category": "creative",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q102",
+    "query": "Write an engaging Kickstarter campaign pitch script for an augmented-reality telescope that identifies deep-sky constellations and satellites in real time.",
+    "expected_category": "creative",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q103",
+    "query": "Write a fairytale about a master clockmaker's apprentice who accidentally catches a rogue minute inside a crystal pocket watch.",
+    "expected_category": "creative",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q104",
+    "query": "Write a tense dialogue between two Renaissance rival painters who uncover a stolen formula for an impossible ultramarine pigment.",
+    "expected_category": "creative",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q105",
+    "query": "Write a satirical op-ed from the perspective of an office espresso machine observing corporate reorgs and management buzzwords.",
+    "expected_category": "creative",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q106",
+    "query": "Compose a formal 14-line Shakespearean sonnet reflecting on the impermanence of digital data and forgotten hard drives.",
+    "expected_category": "creative",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q107",
+    "query": "Write an eerie flash fiction story set in an abandoned deep-sea research station when an external sonar ping begins counting down.",
+    "expected_category": "creative",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q108",
+    "query": "Write a travel journal entry describing the sights, smells, and sounds of an imaginary subterranean market carved inside a colossal amethyst geode.",
+    "expected_category": "creative",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q109",
+    "query": "Write an entertaining pep-talk delivered by an experienced dungeon boss goblin training new goblin guards on their first day of work.",
+    "expected_category": "creative",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q110",
+    "query": "Write a culinary showdown scene between two interstellar chefs competing with ingredients harvested from alien gas giants.",
+    "expected_category": "creative",
+    "expected_complexity": "medium",
+    "expected_route": "fast",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q111",
+    "query": "Write a multi-generational sci-fi narrative exploring the psychological divergence among three generations aboard an interstellar colony ship debating whether to terminate their mission.",
+    "expected_category": "creative",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q112",
+    "query": "Craft an intricate magical realism story exploring a family cursed to remember the future while entirely forgetting their ancestors' past.",
+    "expected_category": "creative",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q113",
+    "query": "Write a one-act dramatic verse play featuring a philosophical debate between a self-aware automated terraforming machine and the lone surviving ecologist of an extinct world.",
+    "expected_category": "creative",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q114",
+    "query": "Write a rich historical fiction piece following a 9th-century Nestorian scholar in the House of Wisdom in Baghdad translating Galen and Aristotle into classical Arabic.",
+    "expected_category": "creative",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q115",
+    "query": "Compose an epic narrative poem in alliterative heroic verse depicting the rise and maritime cataclysm of a forgotten bronze-age thalassocracy.",
+    "expected_category": "creative",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q116",
+    "query": "Write a non-linear psychological short story with an unreliable narrator investigating a coastal lighthouse where time echoes out of sequence.",
+    "expected_category": "creative",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q117",
+    "query": "Write an epistolary story told through intercepted diplomatic telegrams, diary entries, and naval logs chronicling the silent breakdown of a planetary alliance.",
+    "expected_category": "creative",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q118",
+    "query": "Create an avant-garde literary narrative written entirely in the form of academic footnotes and marginalia annotating a lost philosophical text.",
+    "expected_category": "creative",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q119",
+    "query": "Write a deeply textured literary short story about an aged cartographer who discovers an antique map whose coastlines alter reality as they are inked.",
+    "expected_category": "creative",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q120",
+    "query": "Compose a polyphonic prose poem with three interwoven voices: the architect dreaming of a cathedral, the bedrock bearing its load, and the acid rain eroding its spires.",
+    "expected_category": "creative",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q121",
+    "query": "Tell me about the thing with [MASK] and how it works in practice.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q122",
+    "query": "Can you fix this snippet? result = [REDACTED]",
+    "expected_category": "ambiguous",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q123",
+    "query": "Which of the two options is better for my situation?",
+    "expected_category": "ambiguous",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q124",
+    "query": "Make this better, faster, and cleaner.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q125",
+    "query": "How do I install [MASK] on my operating system?",
+    "expected_category": "ambiguous",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q126",
+    "query": "Why did it stop responding all of a sudden without an error code?",
+    "expected_category": "ambiguous",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q127",
+    "query": "Is this syntax valid? fn([MASK]) -> [REDACTED]",
+    "expected_category": "ambiguous",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q128",
+    "query": "Explain what happened yesterday regarding the [REDACTED] incident.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q129",
+    "query": "Where should I save the configuration file for [MASK]?",
+    "expected_category": "ambiguous",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q130",
+    "query": "Show me the standard implementation of that algorithm we discussed earlier.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "low",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q131",
+    "query": "Our backend microservice threw HTTP error 500 when connecting to [MASK]. How do I diagnose and fix this?",
+    "expected_category": "ambiguous",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q132",
+    "query": "Write a data migration script to sync records between [REDACTED] and [MASK] without service interruption.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q133",
+    "query": "Compare [MASK] with Python in terms of memory efficiency, ecosystem maturity, and developer onboarding velocity.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q134",
+    "query": "Can you optimize this database index while also drafting an announcement email explaining the latency benefits to our enterprise clients?",
+    "expected_category": "ambiguous",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q135",
+    "query": "Analyze the security and latency implications of switching our API gateway from [MASK] to [REDACTED].",
+    "expected_category": "ambiguous",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q136",
+    "query": "Should I use a message queue or a relational table to handle incoming [MASK] webhook events during high traffic bursts?",
+    "expected_category": "ambiguous",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q137",
+    "query": "Will this logic cause race conditions? if check([MASK]): process([REDACTED]) under multi-threaded execution?",
+    "expected_category": "ambiguous",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q138",
+    "query": "Estimate the infrastructure cost of running a distributed [MASK] cluster serving 100,000 daily active users.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q139",
+    "query": "How do I set up mutual TLS authentication for [REDACTED] services running behind an Nginx reverse proxy?",
+    "expected_category": "ambiguous",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q140",
+    "query": "I want to build an enterprise application combining [MASK] and [REDACTED] with strict compliance. What architecture pattern should I choose?",
+    "expected_category": "ambiguous",
+    "expected_complexity": "medium",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q141",
+    "query": "Our p99 latency spiked to 4500ms after rolling out [MASK] in region [REDACTED]; analyze potential distributed deadlocks, lock contention, and cache thundering herds.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q142",
+    "query": "Design a Byzantine fault recovery protocol for [MASK] when a compromised node injects malformed payloads into [REDACTED] during partition healing.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q143",
+    "query": "Synthesize a zero-trust multi-cloud architecture integrating [MASK] federated identity with [REDACTED] hardware security modules for SOC-2 Type II compliance.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q144",
+    "query": "Optimize this data transformation pipeline: cat [MASK] | grep [REDACTED] | awk '{print $1}' | sort | uniq -c for terabyte-scale distributed streaming with strict 512MB RAM constraints.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q145",
+    "query": "Determine the mathematical convergence bound of our reinforcement learning policy when the state observation is partially masked by O_t = [REDACTED] under POMDP assumptions.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q146",
+    "query": "We have an elusive memory leak in our [MASK] cluster that only manifests after 96 hours of sustained 50k QPS; outline a comprehensive forensic kernel and heap dump analysis plan.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q147",
+    "query": "Architect a zero-downtime database migration strategy from legacy [REDACTED] to new [MASK] with dual-write CDC, consistency validation, and instantaneous rollback capability.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q148",
+    "query": "Evaluate the algorithmic fairness, disparate impact, and regulatory liability of deploying a [MASK] predictive credit model with masked demographic covariates.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q149",
+    "query": "Investigate why our consensus cluster deadlocks when node [MASK] drops packets to [REDACTED] during simultaneous leader lease renewal and network split-brain.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  },
+  {
+    "id": "q150",
+    "query": "Prove whether the masked token reconstruction objective L(theta) = E_{x}[log P(x_[MASK] | x_[REDACTED])] theoretically bounds the mutual information between latent embeddings and downstream representation utility.",
+    "expected_category": "ambiguous",
+    "expected_complexity": "high",
+    "expected_route": "reasoning",
+    "source": "production_grade_curated_benchmark"
+  }
+]
